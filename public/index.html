@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Markdown Parser</title>
+  <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="assets/index.js"></script>
+</head>
+<body>
+<h1>Markdown Parser</h1>
+
+
+<a class="title" href="#">Markdown <span class="arrow-down"></span></a>
+<form action="/parse" method="POST">
+  <textarea name="parse"></textarea>
+  <button>Submit</button>
+</form>
+
+<a class="title" href="#">GitHub Flavored Markdown <span class="arrow-down"></span></a>
+<form action="/parse-github-markdown" method="POST">
+  <textarea name="parse"></textarea>
+  <button>Submit</button>
+</form>
+</body>
+</html>
